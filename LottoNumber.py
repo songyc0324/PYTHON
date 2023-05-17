@@ -15,6 +15,6 @@ def print_numbers(numbers) :
     print()
 
 
-print("이번주의 로또 번호는 다음과 같습니다. : ")
+print("이번주의 로또 번호는 다음과 같습니다 :", end = ' ')
 lotto_numbers = generate_numbers()
 print_numbers(lotto_numbers)
